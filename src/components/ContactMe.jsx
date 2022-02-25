@@ -39,7 +39,6 @@ export default ({
   primaryLinkUrl = "mailto:z9fr@pm.me",
   secondaryLinkText = "Contact Me",
   secondaryLinkUrl = "/contact",
-  pushDownFooter = true,
 }) => {
   return (
     <Container>

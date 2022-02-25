@@ -2,10 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 //eslint-disable-next-line
-import Header from "../headers/light.js";
+import Header from "../headers/light.jsx";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
-import { SectionDescription } from "components/misc/Typography.js";
+import { SectionDescription } from "components/misc/Typography.jsx";
 
 const Container = tw.div`relative`;
 

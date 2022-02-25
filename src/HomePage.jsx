@@ -1,4 +1,4 @@
-import AnimationRevealPage from "helpers/AnimationRevealPage.js";
+import AnimationRevealPage from "helpers/AnimationRevealPage";
 import { Container } from "components/misc/Layouts";
 
 import HeroPage from "components/hero/HeroPage";
