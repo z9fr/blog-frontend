@@ -4,7 +4,6 @@ import "flowbite";
 import React from "react";
 import { css } from "styled-components/macro"; //eslint-disable-line
 
-import MainLandingPage from "MainLandingPage.js";
 import HomePage from "./HomePage";
 import Signup from "./pages/Signup";
 
@@ -20,10 +19,7 @@ export default function App() {
   return (
     <Router>
       <Switch>
-        <Route path="/home">
-          <MainLandingPage />
-        </Route>
-
+    
         <Router path="/login">
           <Login />
         </Router>
