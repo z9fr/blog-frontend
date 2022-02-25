@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import Slider from "react-slick";
 import tw from "twin.macro";
 import styled from "styled-components";
-import { SectionHeading } from "components/misc/Headings";
 import { PrimaryButton as PrimaryButtonBase } from "components/misc/Buttons";
 import { ReactComponent as ChevronLeftIcon } from "feather-icons/dist/icons/chevron-left.svg";
 import { ReactComponent as ChevronRightIcon } from "feather-icons/dist/icons/chevron-right.svg";
@@ -39,16 +38,10 @@ const CardImage = styled.div((props) => [
 ]);
 
 
-const TextInfo = tw.div`py-6 sm:px-10 sm:py-6`;
 const TitleReviewContainer = tw.div`flex flex-col sm:flex-row sm:justify-between sm:items-center mt-0`;
 const Title = tw.h5`text-xl mt-4 font-bold`;
 
-const RatingsInfo = styled.div`
-  ${tw`flex items-center sm:ml-4 mt-2 sm:mt-0`}
-  svg {
-    ${tw`w-6 h-6 text-yellow-500 fill-current`}
-  }
-`;
+
 
 const Description = styled.div`
   ${tw`flex items-center mt-4 mr-4 last:mr-0`}
@@ -89,6 +82,7 @@ export default function Projects() {
     ],
   };
 
+  // these are just placeholders for now will fetch this from github api 
   const cards = [
     {
       owner: "z9fr",

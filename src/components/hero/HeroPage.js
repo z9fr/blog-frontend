@@ -1,10 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import tw from "twin.macro";
 //eslint-disable-next-line
 import Header from "../headers/light.js";
-
-import ReactModalAdapter from "../../helpers/ReactModalAdapter.js";
 
 import { ReactComponent as SvgDecoratorBlob1 } from "../../images/svg-decorator-blob-1.svg";
 import { SectionDescription } from "components/misc/Typography.js";
@@ -19,17 +17,7 @@ const PrimaryButton = tw.button`font-bold px-8 lg:px-10 py-3 rounded bg-primary-
 const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
   ${tw`pointer-events-none opacity-5 absolute left-0 bottom-0 h-64 w-64 transform -translate-x-2/3  -z-10`}
 `;
-const StyledModal = styled(ReactModalAdapter)`
-  &.mainHeroModal__overlay {
-    ${tw`fixed inset-0 z-50`}
-  }
-  &.mainHeroModal__content {
-    ${tw`xl:mx-auto m-4 sm:m-16 max-w-screen-xl absolute inset-0 flex justify-center items-center rounded-lg bg-gray-200 outline-none`}
-  }
-  .content {
-    ${tw`w-full lg:p-16`}
-  }
-`;
+
 const ThreeColumnContainer = styled.div`
   ${tw`flex flex-col items-center md:items-stretch md:flex-row flex-wrap md:justify-center max-w-screen-lg mx-auto py-20 md:py-24`}
 `;
@@ -43,9 +31,6 @@ export default ({
   primaryButtonText = "View My Blogs",
   primaryButtonUrl = "/blog",
 }) => {
-  const [modalIsOpen, setModalIsOpen] = useState(false);
-
-  const toggleModal = () => setModalIsOpen(!modalIsOpen);
 
   return (
     <>

@@ -34,7 +34,7 @@ const DecoratorBlob2 = tw(
 )`absolute top-0 right-0 w-80 h-80 transform  translate-x-20 -translate-y-64 text-primary-500 opacity-5`;
 export default ({
   subheading = "Build Your Dream Project?",
-  heading = "Contact Me Now!.",
+  heading = "Contact Me.",
   primaryLinkText = "Email Me",
   primaryLinkUrl = "mailto:z9fr@pm.me",
   secondaryLinkText = "Contact Me",
