@@ -83,58 +83,7 @@ export default function Projects() {
   };
 
   // these are just placeholders for now will fetch this from github api 
-  const cards = [
-    {
-      owner: "z9fr",
-      repo: "uni-bot",
-      link: "https://github.com/z9fr/uni-bot",
-      description:
-        "its annoying to check my uni stuff always so i created this bot. this will check my notifications for university like assignment submissions ",
-      image: "https://opengraph.githubassets.com/1/z9fr/uni-bot",
-      website: "https://z9fr.github.io/uni-bot/",
-      language: "JavaScript",
-      languageColor: "#f1e05a",
-      stars: "2",
-      forks: 0,
-    },
-    {
-      owner: "z9fr",
-      repo: "auth-api",
-      link: "https://github.com/z9fr/auth-api",
-      description:
-        "A simple authentication API using jwt tokens and written in nodejs. this can be used for any type of projects for authentication.",
-      image: "https://opengraph.githubassets.com/1/z9fr/auth-api",
-      language: "JavaScript",
-      languageColor: "#f1e05a",
-      stars: "2",
-      forks: "1",
-    },
-    {
-      owner: "z9fr",
-      repo: "girlfriend",
-      link: "https://github.com/z9fr/girlfriend",
-      description:
-        "its a cute anime girl plugin created for my old website, this has features like custamizing the charactor yourself ",
-      image: "https://opengraph.githubassets.com/1/z9fr/girlfriend",
-      website: "https://dasith.works/",
-      language: "JavaScript",
-      languageColor: "#f1e05a",
-      stars: "2",
-      forks: "1",
-    },
-    {
-      owner: "z9fr",
-      repo: "algorithms-in-c",
-      link: "https://github.com/z9fr/algorithms-in-c",
-      description:
-        "algorithms in C, is a old repo of me where i added the algorithemes i did at my 1st year at university. hope this can help someone",
-      image: "https://opengraph.githubassets.com/1/z9fr/algorithms-in-c",
-      language: "C",
-      languageColor: "#555555",
-      stars: "11",
-      forks: "8",
-    },
-  ];
+  const cards =  [{"owner":"AvishkaSooriyapperuma","repo":"Portfolio","link":"https://github.com/AvishkaSooriyapperuma/Portfolio","image":"https://opengraph.githubassets.com/1/AvishkaSooriyapperuma/Portfolio","language":"HTML","languageColor":"#e34c26","stars":"1","forks":0},{"owner":"AvishkaSooriyapperuma","repo":"GitOnlineSession","link":"https://github.com/AvishkaSooriyapperuma/GitOnlineSession","description":"FOSS NSBM","image":"https://opengraph.githubassets.com/1/AvishkaSooriyapperuma/GitOnlineSession","language":"HTML","languageColor":"#e34c26","stars":0,"forks":0},{"owner":"AvishkaSooriyapperuma","repo":"css-Button","link":"https://github.com/AvishkaSooriyapperuma/css-Button","description":"nice 5 button in css","image":"https://opengraph.githubassets.com/1/AvishkaSooriyapperuma/css-Button","language":"CSS","languageColor":"#563d7c","stars":0,"forks":"1"},{"owner":"AvishkaSooriyapperuma","repo":"GitHub-Workshop-2","link":"https://github.com/AvishkaSooriyapperuma/GitHub-Workshop-2","description":"This repo for the Github Workshop 2019 (Winter)","image":"https://opengraph.githubassets.com/1/AvishkaSooriyapperuma/GitHub-Workshop-2","language":"HTML","languageColor":"#e34c26","stars":0,"forks":0},{"owner":"AvishkaSooriyapperuma","repo":"CV-in-html","link":"https://github.com/AvishkaSooriyapperuma/CV-in-html","description":"if you want to write in your cv in html code please use this","image":"https://opengraph.githubassets.com/1/AvishkaSooriyapperuma/CV-in-html","language":"HTML","languageColor":"#e34c26","stars":0,"forks":"2"},{"owner":"AvishkaSooriyapperuma","repo":"Simple-Todo-List","link":"https://github.com/AvishkaSooriyapperuma/Simple-Todo-List","description":"Simple HTML CSS JS Todo list","image":"https://opengraph.githubassets.com/1/AvishkaSooriyapperuma/Simple-Todo-List","language":"HTML","languageColor":"#e34c26","stars":0,"forks":0}]
 
   return (
     <Container>
